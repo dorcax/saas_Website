@@ -39,7 +39,7 @@ const FaqItem = ({ item, index }) => {
       {/* Slide-down effect on content */}
       <div
         className={clsx(
-          'faq-answer overflow-hidden transition-max-height duration-500 ease-in-out border-2',
+          'faq-answer overflow-hidden transition-max-height duration-500 ease-in-out ',
           active ? 'max-h-96' : 'max-h-0' // Adjust max-height to control the sliding effect
         )}
       >
